@@ -30,6 +30,8 @@
         android:text="618 E South St Orlando, FL"
         android:textColor="?android:attr/actionMenuTextColor"
         android:textSize="18sp"
+        android:clickable="true"
+        android:onClick="createMapIntent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toRightOf="@+id/image_view_map"
         app:layout_constraintRight_toRightOf="parent"
@@ -60,9 +62,7 @@
         android:text="Everyday 10am-10pm"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="@+id/text_view_phone"
-        app:layout_constraintTop_toTopOf="@+id/image_view_hours"
-        android:clickable="true"
-        android:onClick="createMapIntent"/>
+        app:layout_constraintTop_toTopOf="@+id/image_view_hours"/>
 
     <ImageView
         android:id="@+id/image_view_phone"
